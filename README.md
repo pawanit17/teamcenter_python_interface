@@ -1,2 +1,2 @@
 # teamcenter_python_interface
-A crude interface to Teamcenter via SOAP calls with Python
+Teamcenter is a PLM system by Siemens and the vendor exposed the functionality via a set of SOAP API for service consumption. This project connects to Teamcenter via a python program via SOAP API. Because HTTP is a stateless protocol, the JSESSIONID returned by the login SOAP service would be stored for subsequent invocations to Teamcenter to maintain information about who the requestor is.   
